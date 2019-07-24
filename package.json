@@ -1,0 +1,22 @@
+{
+  "name": "millennium",
+  "version": "1.0.0",
+  "description": "Official Millennium Digital Website",
+  "main": "index.html",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Millennium",
+    "Digital",
+    "Education",
+    "Landry",
+    "Kapela"
+  ],
+  "author": "Landry Kapela",
+  "license": "ISC"
+}
