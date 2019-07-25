@@ -7,12 +7,29 @@
       href="https://fonts.googleapis.com/css?family=Comfortaa|Exo+2|Maven+Pro:500|Montserrat|Quicksand&amp;display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
+    <div id="container" class="hidden">
+      <div class="controls"><i id="close" class="fa fa-2x fa-close"></i></div>
+      <div id="contact-details" class="popup shadow">
+        <h2>Millennium Digital Services Ltd</h2>
+        <h3>P.O Box 80958</h3>
+        <h3>Dar es Salaam</h3>
+        <p>300 White Beach Park</p>
+        <p>Bagamoyo Road, Mbezi Beach</p>
+        <p>Call: +255 784 086 726</p>
+        <p>E-mail: info@millenniumdigital.co.tz</p>
+      </div>
+    </div>
+
     <header>
       <ul class="nav">
-        <li>About</li>
-        <li>Contact</li>
+        <li id="about">About</li>
+        <li id="contact">Contact</li>
       </ul>
     </header>
     <main class="shadow">
@@ -20,8 +37,26 @@
       <div class="right-pane">
         <h1>Millennium School</h1>
         <h3>Coming Soon</h3>
+        <div id="about-content" class="hidden can-fade-in">
+          <p>
+            Millennium School is a revolutionary educational platform that aims
+            at providing adequately equal opportunities to quality education by
+            leveraging the power of technology.
+          </p>
+          <p>
+            Non-school students will be able to stream live and recorded class
+            sessions taking place in schools where they wouldn't otherwise
+            afford to attend.
+          </p>
+          <p>
+            If you want to participate in this project as a development partner,
+            investor or developer, please contact us via this email
+            <b>landrykapela@neelansoft.co.tz</b>
+          </p>
+        </div>
       </div>
     </main>
+
     <script src="js/script.js"></script>
   </body>
 </html>
