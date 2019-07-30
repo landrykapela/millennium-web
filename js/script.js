@@ -1,4 +1,5 @@
 const aboutLink = document.getElementById("about");
+const serviceLink = document.getElementById("service");
 const contactLink = document.getElementById("contact");
 const container = document.getElementById("container");
 const contactDetails = document.getElementById("contact-details");
@@ -28,3 +29,24 @@ if (close) {
     }, 1000);
   });
 }
+if (serviceLink) {
+  serviceLink.addEventListener("click", () => {
+    createToast("This page is not completed yet", 4);
+  });
+}
+const createToast = (message, timeInSecs) => {
+  const body = document.body;
+  const toast = document.createElement("div");
+  toast.classList.add("toast");
+  toast.textContent = message;
+  const style = document.createElement("style");
+  style.type = "text/css";
+  let innerHTML =
+    ".fadeInOut{ animation-name: fadeInOut;animation-duration:" +
+    timeInSecs +
+    "s;animation-direction: forwards;animation-timing-function: linear;}";
+  style.innerHTML = innerHTML;
+  document.head.appendChild(style);
+  toast.classList.add("fadeInOut");
+  body.appendChild(toast);
+};
