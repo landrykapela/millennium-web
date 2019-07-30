@@ -29,8 +29,8 @@ main {
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  max-height: 600px;
-  height: 600px;
+  height: 90vh;
+  max-height: 900px;
   overflow: hidden;
 }
 .hidden {
